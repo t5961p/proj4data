@@ -30,7 +30,8 @@ S_df = pd.read_csv(url)
 
 
 def get_displayed_movies():
-    return movies[1570:1710]#movies.head(100)
+    # randomly show 100 samples
+    return movies.sample(n=100)   #movies.head(100)
 
 ## get recommended movies based on user ratings (System II)
 def get_recommended_movies(new_user_ratings):
