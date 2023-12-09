@@ -22,10 +22,10 @@ genres = list(
 )
 
 # Load my data
-url = "https://raw.githubusercontent.com/t5961p/stat542proj4/main/top10_genres.csv?token=GHSAT0AAAAAACLK6NGCFIJJB6FEJLTXPWC4ZLT3ZWA"
+url = "https://raw.githubusercontent.com/t5961p/stat542proj4/main/top10_genres.csv"
 myData = pd.read_csv(url)
 # S matrix
-url = "https://raw.githubusercontent.com/t5961p/stat542proj4/main/S_matrix.csv?token=GHSAT0AAAAAACLK6NGCONTJFAEAUD4VB4CQZLT3ZBA"
+url = "https://raw.githubusercontent.com/t5961p/stat542proj4/main/S_matrix.csv"
 S_df = pd.read_csv(url)
 
 
